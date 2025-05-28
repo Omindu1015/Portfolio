@@ -157,6 +157,12 @@
     background: linear-gradient(to right, white, white, transparent);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
   }
+
+  .animate-meteor {
+  animation-name: meteor;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  }
 }
 
 #root {
