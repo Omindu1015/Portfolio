@@ -4,6 +4,18 @@
 
 @layer base {
   :root {
+    --border: 214 32% 91%;
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --primary: 250 47% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --card: 270 50% 85%;
+;
+
+    
+
     
     --color-border: hsl(var(--border));
     --color-background: hsl(var(--background));
@@ -21,19 +33,9 @@
     --animate-fade-in-delay-4: fade-in-delay 0.7s ease-out 0.8s forwards;
     --animate-meteor: meteor 5s linear infinite;
   }
+ 
 
-  .light{
-    --border: 214 32% 91%;
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
-
-    --primary: 250 47% 60%;
-    --primary-foreground: 210 40% 98%;
-
-    --card: 0 0% 100%;
-
-  }
-
+  
   .dark {
     --border: 217 33% 20%;
     --background: 222 47% 4%;
@@ -93,6 +95,9 @@
   .container {
     margin-inline: auto;
     padding-inline: 2rem;
+  }
+  .bg-card {
+    background-color: hsl(var(--card));
   }
 
   @media (width >= 640px) {
