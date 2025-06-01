@@ -1,7 +1,7 @@
 
 import { NotFound } from "./pages/NotFound";
 import { BrowserRouter,Route, Routes } from "react-router-dom";
-import  Toaster  from "@/components/Ui/toaster";
+import { Toaster }  from "@/components/Ui/toaster";
 import  Home  from "@/pages/Home";
 
 function App() {
